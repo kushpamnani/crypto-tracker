@@ -18,7 +18,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'your-github-username', // Usually your GitHub org/user name.
+  organizationName: 'kushpamnani', // Usually your GitHub org/user name.
   projectName: 'crypto-tracker', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -41,8 +41,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/your-github-username/crypto-tracker/tree/main/docs/',
+          editUrl: 'https://github.com/kushpamnani/crypto-tracker/tree/main/docs/',
         },
         blog: false,
         theme: {
@@ -99,7 +98,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kush Pamnani. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
